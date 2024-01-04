@@ -1,8 +1,12 @@
+import numpy as np
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import fbeta_score, precision_score, recall_score
+from sklearn.preprocessing import LabelBinarizer, OneHotEncoder
 
 
 # Optional: implement hyperparameter tuning.
-def train_model(X_train, y_train):
+def train_model(X_train, y_train) -> RandomForestClassifier:
     """
     Trains a machine learning model and returns it.
 
@@ -18,7 +22,10 @@ def train_model(X_train, y_train):
         Trained machine learning model.
     """
 
-    pass
+    model = RandomForestClassifier(random_state=42)
+    # fit the logistic regression to your data
+    model.fit(X_train, y_train)
+    return model
 
 
 def compute_model_metrics(y, preds):
@@ -43,12 +50,12 @@ def compute_model_metrics(y, preds):
     return precision, recall, fbeta
 
 
-def inference(model, X):
-    """ Run model inferences and return the predictions.
+def inference(model: RandomForestClassifier, X: np.ndarray) -> np.ndarray:
+    """Run model inferences and return the predictions.
 
     Inputs
     ------
-    model : ???
+    model : RandomForestClassifier
         Trained machine learning model.
     X : np.array
         Data used for prediction.
@@ -57,4 +64,5 @@ def inference(model, X):
     preds : np.array
         Predictions from the model.
     """
-    pass
+    predictions = model.predict(X)
+    return predictions
