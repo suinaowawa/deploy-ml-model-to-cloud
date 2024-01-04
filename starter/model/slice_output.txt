@@ -1,0 +1,16 @@
+Slicing on column: education, value: Bachelors | Precision: 0.9510647938377889 | Recall: 0.945069788383611 | Fbeta: 0.9480578139114725
+Slicing on column: education, value: HS-grad | Precision: 0.9499679281590764 | Recall: 0.8841791044776119 | Fbeta: 0.9158936301793446
+Slicing on column: education, value: 11th | Precision: 1.0 | Recall: 0.8666666666666667 | Fbeta: 0.9285714285714286
+Slicing on column: education, value: Masters | Precision: 0.9616977225672878 | Recall: 0.9687174139728885 | Fbeta: 0.9651948051948052
+Slicing on column: education, value: 9th | Precision: 1.0 | Recall: 0.9259259259259259 | Fbeta: 0.9615384615384615
+Slicing on column: education, value: Some-college | Precision: 0.95 | Recall: 0.9041095890410958 | Fbeta: 0.9264868858514961
+Slicing on column: education, value: Assoc-acdm | Precision: 0.9534883720930233 | Recall: 0.9283018867924528 | Fbeta: 0.9407265774378585
+Slicing on column: education, value: Assoc-voc | Precision: 0.9484240687679083 | Recall: 0.9168975069252078 | Fbeta: 0.9323943661971832
+Slicing on column: education, value: 7th-8th | Precision: 0.9714285714285714 | Recall: 0.85 | Fbeta: 0.9066666666666667
+Slicing on column: education, value: Doctorate | Precision: 0.974025974025974 | Recall: 0.9803921568627451 | Fbeta: 0.977198697068404
+Slicing on column: education, value: Prof-school | Precision: 0.958904109589041 | Recall: 0.9929078014184397 | Fbeta: 0.975609756097561
+Slicing on column: education, value: 5th-6th | Precision: 1.0 | Recall: 0.875 | Fbeta: 0.9333333333333333
+Slicing on column: education, value: 10th | Precision: 0.9454545454545454 | Recall: 0.8387096774193549 | Fbeta: 0.8888888888888888
+Slicing on column: education, value: 1st-4th | Precision: 1.0 | Recall: 1.0 | Fbeta: 1.0
+Slicing on column: education, value: Preschool | Precision: 1.0 | Recall: 1.0 | Fbeta: 1.0
+Slicing on column: education, value: 12th | Precision: 1.0 | Recall: 0.9090909090909091 | Fbeta: 0.9523809523809523
